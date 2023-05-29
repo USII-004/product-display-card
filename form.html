@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>Brand registration form</title>
+</head>
+<body>
+    <main>
+        <form action=""method="POST">
+            <div id="logo">
+                <h1>Brand:</h1>
+            </div>
+            <div id="description">
+                <h1>Welcome to Brandie</h1>
+            </div>
+                <div id="google-sign-up"> <!-- use google API to create it and include a  scrite to configure it. also requires a backend -->
+                <button><p>Sign in with google</p></button>
+            </div>
+            <div id="email-sign-up">
+                <div class="horizontal-line">
+                    <hr class="horizontal-line right">
+                    <span class="text-between">OR</span>
+                    <hr>
+                </div>
+                <div class="form-group" id="email-container">
+                    <label for="email">Email Address</label>
+                    <input type="text" placeholder="Enter your email" name="email" id="email" class="form-control">
+                </div>
+                <div class="form-group" id="number-container">
+                    <label for="number">Phone Number</label>
+                    <input type="number" name="number" id="number" class="form-control">
+                </div>
+                <div class="form-group" id="checkbox-container">
+                    <label for="terms-and-condition"><input type="checkbox" name="terms-and-condition" class="input-checkbox" id="terms-and-condition"><span>By continuing, you agree to our <a href="">Terms & conditions</a></span></label>
+                </div>
+                <div class="form-group" id="submit-container">
+                    <button type="submit" id="submit" class="submit-button">Continue</button>
+                </div>
+            </div>       
+            <div class="sign-in">
+                <p>Have an account with us? <a href="">Sign in Here</a> </p>
+            </div>
+        </form>
+    </main>
+</body>
+</html>
